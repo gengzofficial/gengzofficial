@@ -1,0 +1,32 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Ubah sesuai dengan nama cabang utama Anda
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Sesuaikan versi Node.js dengan proyek Anda
+
+      - name: Install dependencies
+        run: npm install  # Ubah menjadi `yarn install` jika menggunakan Yarn
+
+      - name: Build project
+        run: npm run build  # Atur skrip build sesuai dengan proyek Anda
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages  # Sesuaikan dengan nama cabang yang Anda gunakan untuk GitHub Pages
+          FOLDER: dist  # Sesuaikan dengan direktori output dari skrip build Anda
