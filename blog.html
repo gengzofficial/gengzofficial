@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle - AI Technology & Startup HTML Template</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- Site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/logo-dark.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
+
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link-item">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">About</a>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Konten
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="https://instagram.com/gengzi.official" target="_blank">Animasi</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="blog.html">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-item">Kontak</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation -->
+
+                    <!-- Header User Event -->
+                    <div class="flex items-center gap-6">
+                        <a href="signup.html"
+                            class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Hubungi Kami</a>
+                        <!-- Responsive Offcanvas Menu Button -->
+                        <div class="block lg:hidden">
+                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Header User Event -->
+                </div>
+            </div>
+        </header>
+        <!--...::: Header End :::... -->
+
+        <main class="main-wrapper relative overflow-hidden">
+            <!--...::: Breadcrumb Section Start :::... -->
+            <section id="section-breadcrumb">
+                <!-- Section Spacer -->
+                <div class="breadcrumb-wrapper">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div class="breadcrumb-block">
+                            <h1 class="breadcrumb-title">Blog</h1>
+                            <ul class="breadcrumb-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Breadcrumb Section End :::... -->
+
+            <!--...::: Blog Section Start :::... -->
+            <section class="blog-section">
+                <!-- Section Spacer -->
+                <div class="pb-40 xl:pb-[220px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div class="grid grid-cols-1 gap-x-6 gap-y-10">
+                            <div class="flex flex-col gap-y-10 lg:gap-y-14 xl:gap-y-20">
+                                <!-- Blog Post List -->
+                                <ul class="grid grid-cols-2 gap-6">
+                                    <!-- Blog Post Single Item -->
+                                    <li
+                                        class="jos group overflow-hidden rounded-[10px] bg-white shadow-[0_4px_80px_rgba(0,0,0,0.08)]">
+                                        <a href="blog-details.html" class="block overflow-hidden">
+                                            <img src="https://plus.unsplash.com/premium_photo-1683842189051-19fc4188df7d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog-main-1" width="856"
+                                                height="540"
+                                                class="h-auto w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                        </a>
+                                        <div class="border border-[#EAEDF0] p-[30px]">
+                                            <!-- Blog Post Meta -->
+                                            <ul class="flex flex-wrap items-center gap-6">
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="blog-details.html"
+                                                        class="hover:text-colorOrangyRed">Etika</a>
+                                                </li>
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="blog-details.html" class="hover:text-colorOrangyRed">May
+                                                        2, 2024</a>
+                                                </li>
+                                            </ul>
+                                            <!-- Blog Post Meta -->
+                                            <h5 class="mb-3 mt-7 hover:text-colorOrangyRed">
+                                                <a href="blog-details.html">
+                                                    Apa itu Etika di Media Sosial?</a>
+                                            </h5>
+                                            <p class="mb-7 line-clamp-2 last:mb-0">
+                                                Halo gais! Jadi, kita semua suka betapa serunya berkeliaran di dunia maya, kan? Tapi, tahukah kamu bahwa ada semacam aturan main yang harus diikuti? Yuk, simak penjelasan tentang etika di media sosial! Bicara soal etika online, kita punya tanggung jawab buat jagain akun kita dan hubungan kita dengan yang lain. Gini, kayaknya gampang, tapi kadang kita tergoda buat ngelewatin batas. Coba deh pahami poin-poin ini
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <!-- Blog Post Single Item -->
+                                    <!-- Blog Post Single Item -->
+                                    <li
+                                        class="jos group overflow-hidden rounded-[10px] bg-white shadow-[0_4px_80px_rgba(0,0,0,0.08)]">
+                                        <a href="cyberbullying.html" class="block overflow-hidden">
+                                            <img src="https://plus.unsplash.com/premium_photo-1663100211293-809747fe6f82?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog-main-2" width="856"
+                                                height="540"
+                                                class="h-auto w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                        </a>
+                                        <div class="border border-[#EAEDF0] p-[30px]">
+                                            <!-- Blog Post Meta -->
+                                            <ul class="flex flex-wrap items-center gap-6">
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="cyberbullying.html"
+                                                        class="hover:text-colorOrangyRed">Cyberbullying</a>
+                                                </li>
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="cyberbullying.html" class="hover:text-colorOrangyRed">May
+                                                        10, 2024</a>
+                                                </li>
+                                            </ul>
+                                            <!-- Blog Post Meta -->
+                                            <h5 class="mb-3 mt-7 hover:text-colorOrangyRed">
+                                                <a href="cyberbullying.html">
+                                                    Siapa yang Pernah Mengalami Cyberbullying? Itu Terjadi dan Kamu Bisa Mengatasinya!</a>
+                                            </h5>
+                                            <p class="mb-7 line-clamp-2 last:mb-0">
+                                                Teman-teman, saat ini kita nggak bisa lagi tutup mata soal cyberbullying. Cyberbullying itu kayak setan di dunia maya yang bisa merusak hari seseorang dalam sekejap. Makanya, kita perlu paham dan jaga diri dari ini.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <!-- Blog Post Single Item -->
+                                    <!-- Blog Post Single Item -->
+                                    <li
+                                        class="jos group overflow-hidden rounded-[10px] bg-white shadow-[0_4px_80px_rgba(0,0,0,0.08)]">
+                                        <a href="hoax.html" class="block overflow-hidden">
+                                            <img src="https://plus.unsplash.com/premium_photo-1708116463232-9610faf88d24?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog-main-3" width="856"
+                                                height="540"
+                                                class="h-auto w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                        </a>
+                                        <div class="border border-[#EAEDF0] p-[30px]">
+                                            <!-- Blog Post Meta -->
+                                            <ul class="flex flex-wrap items-center gap-6">
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="hoax.html"
+                                                        class="hover:text-colorOrangyRed">Hoax</a>
+                                                </li>
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="hoax.html" class="hover:text-colorOrangyRed">May
+                                                        15, 2024</a>
+                                                </li>
+                                            </ul>
+                                            <!-- Blog Post Meta -->
+                                            <h5 class="mb-3 mt-7 hover:text-colorOrangyRed">
+                                                <a href="hoax.html">
+                                                    Jangan Kena Jebakan Berita Hoax! Nggak Cool, Bro!</a>
+                                            </h5>
+                                            <p class="mb-7 line-clamp-2 last:mb-0">
+                                                Yo, teman-teman! Siapa yang sering kena jebakan berita hoax? Kalo iya, jangan khawatir, kita semua pernah! Berita hoax itu kayak virus yang bisa nyerang otak kita. Nah, sebelum kita terinfeksi lagi, mari kita bahas bareng-bareng!
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <!-- Blog Post Single Item -->
+                                    <!-- Blog Post Single Item -->
+                                    <li
+                                        class="jos group overflow-hidden rounded-[10px] bg-white shadow-[0_4px_80px_rgba(0,0,0,0.08)]">
+                                        <a href="dontdo.html" class="block overflow-hidden">
+                                            <img src="https://plus.unsplash.com/premium_photo-1683842189271-28aec6133d0f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog-main-4" width="856"
+                                                height="540"
+                                                class="h-auto w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                        </a>
+                                        <div class="border border-[#EAEDF0] p-[30px]">
+                                            <!-- Blog Post Meta -->
+                                            <ul class="flex flex-wrap items-center gap-6">
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="dontdo.html"
+                                                        class="hover:text-colorOrangyRed">Do's & Don'ts</a>
+                                                </li>
+                                                <li
+                                                    class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                    <a href="dontdo.html" class="hover:text-colorOrangyRed">May
+                                                        16, 2024</a>
+                                                </li>
+                                            </ul>
+                                            <!-- Blog Post Meta -->
+                                            <h5 class="mb-3 mt-7 hover:text-colorOrangyRed">
+                                                <a href="dontdo.html">
+                                                    5 Do's & Don'ts Saat Nge-Medsos! Biar Nggak Nyebelin Orang Lain, Aku Kamu!</a>
+                                            </h5>
+                                            <p class="mb-7 line-clamp-2 last:mb-0">
+                                                Hai, netizen keren! Saat ini, medsos kayak rumah kedua buat kita, ya kan? Tapi, biar tetep asyik dan nggak bikin masalah, kita perlu ngikutin aturan mainnya. Nah, ini dia 5 do's & don'ts yang wajib kamu tau!
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <!-- Blog Post Single Item -->
+                                    
+                                </ul>
+                                <!-- Blog Post List -->
+                                
+                            </div>
+                            
+                            </aside>
+                            <!-- Blog Aside -->
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Blog Section End :::... -->
+        </main>
+
+        <!--...::: Footer Section Start :::... -->
+        <footer
+            class="relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]">
+            <!-- Footer Top -->
+            <div class="py-[60px] xl:pb-[100px] xl:pt-[130px]">
+                <div class="overflow-hidden">
+                    <!-- Footer Text Slider -->
+                    <div class="footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap">
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Anak Muda Bijak Sosial Media
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            #ThinkTwice
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            #ThinkTwice
+                        </div>
+                        <!-- Footer Slide Item  -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Text Slider -->
+            <!-- Footer Top -->
+            <div class="global-container">
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Center -->
+                <div
+                    class="lg grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]">
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <a href="index.html" class="inline-block"><img src="assets/img/th-1/logo.png" alt="logo"
+                                width="96" height="24" /></a>
+                        <p>
+                            Semua desain dan animasi di series Geng-Z ini dibuat oleh @wahyusatrio.exe. <br> Voice over Aci by @divaazizahs <br> Voice over Bagas by @wahyu.satrio.wibowo
+                        </p>
+                        <p>
+                            Website: <a href="https://www.example.com">www.geng-z.com</a>
+                        </p>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Primary Pages
+                        </h4>
+                        <!-- Footer Title -->
+
+                        <!-- Footer Navbar -->
+                        <ul class="flex flex-col gap-y-[10px] capitalize">
+                            <li>
+                                <a href="index.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">About
+                                    Us</a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/gengzi.official" target="_blank"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <!-- <div class="flex flex-col gap-y-6"> -->
+                        <!-- Footer Title -->
+                        <!-- <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Utility pages
+                        </h4> -->
+                        <!-- Footer Title -->
+
+                        <!-- Footer Navbar -->
+                       <!--  <ul class="flex flex-col gap-y-[10px] capitalize">
+                            <li>
+                                <a href="signup.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Signup</a>
+                            </li>
+                            <li>
+                                <a href="login.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Login</a>
+                            </li>
+                            <li>
+                                <a href="error-404.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">404 Not
+                                    found</a>
+                            </li>
+                            <li>
+                                <a href="reset-password.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Password
+                                    Reset</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Subscribe
+                        </h4>
+                        <!-- Footer Title -->
+                        <!-- Footer Subscriber Form -->
+                        <form action="#" method="post" class="">
+                            <div class="relative h-[50px] max-w-[300px]">
+                                <input type="email" name="newsletter-email" id="newsletter-email"
+                                    placeholder="Enter your email"
+                                    class="p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none"
+                                    required />
+                                <button type="submit"
+                                    class="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500">
+                                    <img src="assets/img/th-1/arrow-right-large.svg" alt="newsletter" />
+                                </button>
+                            </div>
+                        </form>
+                        <!-- Footer Subscriber Form -->
+                    </div>
+                    <!-- Footer Widget -->
+                </div>
+                <!-- Footer Center -->
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Bottom -->
+                <div class="py-9 text-center">
+                    <p>&copy; Copyright 2024, All Rights Reserved by Geng-Z®</p>
+                </div>
+                <!-- Footer Bottom -->
+            </div>
+
+            <!-- Footer Background Shape 1  -->
+            <div
+                class="orange-gradient-2 absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] -rotate-[58deg] rounded-[406px]">
+            </div>
+
+            <!-- Footer Background Shape 2  -->
+            <div
+                class="orange-gradient-1 absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] -rotate-[58deg] rounded-[451px]">
+            </div>
+        </footer>
+        <!--...::: Footer Section End :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
